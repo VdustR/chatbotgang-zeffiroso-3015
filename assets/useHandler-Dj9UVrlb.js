@@ -1,0 +1,1 @@
+import{r as t}from"./index-qCb0-TeD.js";const u=typeof window<"u"?t.useLayoutEffect:t.useEffect;function c(e){const r=t.useRef(e);return u(()=>{r.current=e}),t.useRef((...n)=>(0,r.current)(...n)).current}function s(e){return c(e)}export{s as u};
